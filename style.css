@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+form{
+    margin: 0 auto;
+    padding: 30px;
+}
+
+form input{
+    height: 25px;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid rgb(2, 203, 2);
+}
+
+form input:hover{
+    background-color:  rgb(242, 255, 242) ;
+    transition: 0.7s;
+}
+
+form button{
+    height: 25px;
+    border: none;
+    background-color: rgb(2, 203, 2);
+    color: white;
+    padding: 3px;
+}
+
+form button:hover{
+    background-color: rgb(1, 137, 1) ;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+main{
+    display: flex;
+    max-width: 720px;
+    width: 100%;
+    margin: 3% auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.Data-e-hora{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    background-color: rgb(2, 203, 2);
+    color: white;
+    width: 35%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.agenda{
+    padding: 10px 50px;
+    width: 65%;
+    background-color: rgb(242, 255, 242);
+    border-radius: 0px 20px 20px 0px;
+
+
+}
+
+table{
+    width: 100%;
+}
+
+table th{
+    border-bottom: 2px solid black;
+}
+
+table td{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    padding: 3px;
+    text-align: center;
+}
+
+h1{
+    font-size: 4pc;
+}
+
+h2, h3, h4{
+    margin-top: 5px;
+}

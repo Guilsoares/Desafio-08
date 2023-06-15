@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Telefonica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <form id="formularioAgenda">
+            <input type="text" required name="nome" id="nome" placeholder="Nome">
+            <input type="text" required name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+            <input type="tel" required name="Telefone" id="tel" maxlength="12" placeholder="Telefone">
+            <button type="submit">Adicionar+</button>
+
+        </form>
+    </header>
+
+    <main>
+
+        <section class="Data-e-hora">
+            <h1 id="dia-m">2</h1>
+            <h2 id="mes">julho</h2>
+            <h3 id="dia-s">Domingo</h3>
+        </section>
+
+        <section class="agenda">
+            <table cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Sobrenome</th>
+                        <th>Telefone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+
+        </section>
+    </main>
+
+    <script src="Data-Hora.js"></script>
+    <script src="agenda.js"></script>
+
+</body>
+</html>
